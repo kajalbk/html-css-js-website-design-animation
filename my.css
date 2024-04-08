@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(243, 159, 159), rgb(219, 141, 219));
+}
+
+.logo {
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(148, 109, 38), rgb(184, 31, 31), rgb(182, 233, 182));
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.logo:hover {
+    background-image: linear-gradient(rgb(180, 81, 81), rgb(224, 153, 224), rgb(241, 193, 102));
+
+}
+
+span {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 29px;
+}
+
+
+ul {
+    background-image: linear-gradient(rgb(217, 217, 245), rgb(110, 110, 7), rgb(230, 190, 196));
+    cursor: pointer;
+    height: 10rem;
+    padding-top: 20px;
+
+
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 50px;
+    color: white;
+    margin-right: 10rem;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+li.hov:hover {
+    background-color: rgb(238, 61, 61);
+    box-shadow: 0 0 30px purple;
+    color: rgb(42, 19, 65);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+a.linked {
+    text-decoration: none;
+}
+
+
+.image {
+    margin-top: 30px;
+    margin-left: 10rem;
+    text-align: center;
+    width: 80%;
+}
+
+
+.center {
+    margin-top: 5px;
+    margin-left: 10rem;
+    background-image: linear-gradient(rgb(247, 171, 171), rgb(199, 245, 199), rgb(201, 159, 240));
+    width: 80%;
+    height: 80px;
+    text-align: center;
+
+}
+
+.slider {
+    display: none;
+}
+
+.section .btn1 {
+    font-size: 20px;
+    width: 7rem;
+    margin-left: 5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: linear-gradient(rgb(194, 70, 70), rgb(196, 243, 196), rgb(66, 108, 124));
+    border: 0;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+
+}
+
+.section .btn1:hover {
+    background-image: linear-gradient(rgb(204, 231, 204), rgb(231, 231, 50), rgb(201, 47, 124));
+}
+
+button.demo {
+    background-color: rgb(199, 73, 73);
+    border: 0;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    border-radius: 30%;
+    width: 70px;
+    margin-left: 5rem;
+}
+
+button.demo:hover {
+    background-image: linear-gradient(greenyellow, red);
+    box-shadow: 0 0 25px rgb(7, 63, 63);
+    color: black;
+}
+
+/*.demodred {
+    background-color: red;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+    width: 20px;
+    margin-left: 25rem;
+
+}*/
+
+
+h2 {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-image: url('pahad.jpg');
+    background-clip: text;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.slide {
+    position: relative;
+    width: max-content;
+
+}
+
+.img1 {
+    height: auto;
+    border-radius: 25px;
+    margin-left: 2rem;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    border-radius: 25px;
+    margin-left: 2rem;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(rgb(214, 111, 111), rgb(74, 74, 187), rgb(86, 201, 105), rgb(228, 129, 83));
+    overflow: hidden;
+    width: 500px;
+    height: 0;
+    transition: 0.9s ease;
+}
+
+.slide:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.hi {
+    background-color: #eb3b84;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -25%;
+    font-size: larger;
+    margin-left: 44rem;
+    width: 150px;
+    height: 150px;
+    padding-top: 25px;
+}
+
+select {
+    font-size: 20px;
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    background-image: linear-gradient(lightyellow, rgb(231, 173, 231), rgb(170, 170, 228), rgb(228, 152, 152));
+    border-radius: 20px;
+
+}
+
+option {
+    font-size: larger;
+    background-color: rgb(231, 235, 233);
+    border: 0;
+}
+
+
+.hii {
+    background-color: #a9f3c5;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -8%;
+    background-color: #eb3b84;
+    font-size: larger;
+    margin-left: 50%;
+    width: 150px;
+    height: 150px;
+    padding-top: 25px;
+}
+
+.hi:hover,
+.hii:hover {
+    background-image: linear-gradient(darkgreen, lightyellow, hotpink);
+    box-shadow: 0 0 55px greenyellow;
+}
+
+
+
+
+@media (max-width:1199px) {
+    li {
+        padding-right: 30px;
+        display: flex;
+    }
+}
+
+@media (max-width:1669px) {
+    .logo {
+        border: 2px;
+    }
+
+    span {
+        align-items: center;
+    }
+
+    li {
+        padding-right: 100px;
+
+    }
+}
+
+
+
+/*search button*/
+
+
+
+input#search-box {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 2rem;
+
+}
+
+#search-box:focus {
+    background-color: rgb(202, 240, 240);
+    box-shadow: 0 0 20px red;
+}
+
+.btn {
+
+    background: #e92222;
+    color: #fff;
+    font-size: 21px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 2rem;
+    width: 6rem;
+}
+
+.btn:hover {
+    color: black;
+    transition: .3s;
+    animation: ani 3s ease;
+}
+
+@keyframes ani {
+    0% {
+        transform: rotate(360deg);
+        background-color: rgb(238, 168, 77);
+    }
+
+
+}
+
+::placeholder {
+    color: black;
+    font-size: 18px;
+}
